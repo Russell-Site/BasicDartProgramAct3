@@ -27,7 +27,7 @@ void main() {
     resQuotient = quotient.toString();
   } catch (e) {
     resQuotient = "Error: ${e.toString()}";
-  } // Hindi ito AI sir tumingin ako sa site ng Geek4Geeks about sa try and except ng divison error.
+  } // Hindi ito AI sir tumingin ako sa site ng Geek4Geeks about sa try and except ng divison error LABYU SIR.
   //Ito sir link oh = https://www.geeksforgeeks.org/dart/exception-handling-in-dart/
 
   
