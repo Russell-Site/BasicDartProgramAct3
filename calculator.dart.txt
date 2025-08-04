@@ -1,0 +1,40 @@
+void main() {
+  int num1 = 5;
+  int num2 = 0;
+  
+  int calSum(num1,num2){
+    return num1 + num2;
+  }
+  
+  int calProduct(num1,num2){
+    return num1 * num2;
+  }
+  
+  int calDiff(num1,num2){
+    return num1 - num2;
+  }
+  
+  int calQuotient(num1,num2){
+    return num1 ~/ num2;
+  }
+  int resSum = calSum(num1,num2);
+  int resProduct = calProduct(num1,num2);
+  int resDiff = calDiff(num1,num2);
+  String resQuotient;
+  
+  try {
+    int quotient = calQuotient(num1, num2);
+    resQuotient = quotient.toString();
+  } catch (e) {
+    resQuotient = "Error: ${e.toString()}";
+  } // Hindi ito AI sir tumingin ako sa site ng Geek4Geeks about sa try and except ng divison error.
+  //Ito sir link oh = https://www.geeksforgeeks.org/dart/exception-handling-in-dart/
+
+  
+  print("<-- Simple Calculator Program -->");
+  print("\nNumber 1: $num1\nNumber 2: $num2\n");
+  print("Result Sum: $resSum");
+  print("Result Product: $resProduct");
+  print("Result Difference: $resDiff");
+  print("Result Quotient: $resQuotient");
+}
